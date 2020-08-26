@@ -17,5 +17,7 @@ module NewsAggregator
 
     config.generators.test_framework :rspec
     config.generators.integration_tool :rspec
+
+    config.active_job.queue_adapter = :sidekiq
   end
 end

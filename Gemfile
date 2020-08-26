@@ -14,6 +14,7 @@ gem 'dotenv-rails'
 gem 'sidekiq'
 gem 'sidekiq-client-cli'
 gem 'rufus-scheduler'
+gem 'require_all'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
