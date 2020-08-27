@@ -1,7 +1,7 @@
 require 'rufus-scheduler'
 require_relative '../../config/application'
 require_relative '../../config/environments/development'
-require_all 'app/workers'
+require_all './app/workers'
 
 scheduler = Rufus::Scheduler.new
 Rails.logger.info("Scheduler is initiated...")
